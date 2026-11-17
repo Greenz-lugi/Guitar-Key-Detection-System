@@ -64,6 +64,8 @@ What to do with the knowledge of the keys played depends on the user; we were th
 
 <img width="550" height="372" alt="image" src="https://github.com/user-attachments/assets/2a605aa8-99ce-466d-a485-0e2fb0ae4ad0" />
 
+
+The link below is a video of the system working alongside the code for the first time:
 [Guitar Key Detection System (Officially Working)](https://drive.google.com/file/d/1wev5ISjBDpGWXXvGDHWWp2vrMQXHoieD/view?usp=sharing)
 
 
