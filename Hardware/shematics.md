@@ -12,9 +12,9 @@ The hardware has been developed through researching existing circuit configurati
 
 The hardware documentation is currently divided into three circuit designs:
 
-### 1. OP777 Signal Conditioning Circuit
+### 1. Signal Conditioning Circuit
 
-**Documentation:** `OP777_Circuit.md`
+**Documentation:** `Signal_Conditioning_Circuit.md`
 
 This circuit was developed separately by a project team member. It uses an OP777 operational amplifier as part of a signal-conditioning and buffering stage.
 
