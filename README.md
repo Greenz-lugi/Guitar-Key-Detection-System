@@ -2,7 +2,7 @@
 
 ## Project Team
 
-| Jamal Antabeel | Partner 1 | Partner 2 | Partner 3 |
+| Jamal Antabeel | Joaquin Plaza Herrera | Dhared Aldrich Drew | Avgusta Gasenko |
 |:---:|:---:|:---:|:---:|
 
 ---
