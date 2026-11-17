@@ -66,6 +66,7 @@ What to do with the knowledge of the keys played depends on the user; we were th
 
 
 The link below is a video of the system working alongside the code for the first time:
+
 [Guitar Key Detection System (Officially Working)](https://drive.google.com/file/d/1wev5ISjBDpGWXXvGDHWWp2vrMQXHoieD/view?usp=sharing)
 
 
