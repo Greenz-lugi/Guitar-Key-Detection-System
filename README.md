@@ -48,4 +48,17 @@ The current prototype successfully captures guitar input and identifies several 
 - D major (D)
 - E major (E)
 
-Further development will focus on improving chord recognition, refining signal processing, and expanding the range of detectable chords.
+Further development will focus on improving chord recognition, refining signal processing, and expanding the range of detectable chords. Mainly on the software end, having it not lag or be as sensitive to certain signals, where, in some cases, it starts repeating previous chords or becomes sensitive to the signals that came in rather than what is coming in. 
+
+Aside from the software end, we currently have two designs for the hardware, one developed by Jamal and another by Dhared. The more advanced one is coming along as a mix between the two designs to ultimately have the analog aspect of the system be complete. 
+
+Our objective is to make this something professional, manufacturable, and scalable, since in a professional working environment that is the goal of a company. 
+
+So we're planning on potentially looking into PCB design, a 3D model to encase the electronics, and having some Javascript/HTML/CSS into the mix to make this into a website. Goals for us to strive for and implement within our design. 
+
+What to do with the knowledge of the keys played depends on the user; we were thinking an application we can first try and implement is having them act as key binds in video games. Stuff like A minor (Am) being jump, G major (G) being shoot a fireball, and C major (C) being whatever the user would like.
+
+## Progress Currently:
+
+
+
