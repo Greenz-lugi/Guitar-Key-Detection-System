@@ -14,9 +14,10 @@ A voltage follower is a non-inverting amplifier configuration with unity voltage
 
 Its ideal voltage relationship is:
 
-\[
+$$
 V_{\text{out}} = V_{\text{in}}
-\]
+$$
+
 
 Although the voltage gain is approximately one, a buffer is useful because it provides:
 
