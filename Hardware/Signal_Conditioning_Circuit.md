@@ -68,9 +68,8 @@ Therefore, buffering and ADC input compatibility are separate design considerati
 
 ## Schematic
 
-<!-- Insert the OP777 circuit schematic image here. -->
+<img width="596" height="306" alt="image" src="https://github.com/user-attachments/assets/0266719d-d606-4e6a-8b62-6d2c32104474" />
 
-![OP777 Signal Conditioning Circuit](images/op777_circuit.png)
 
 ## Summary
 
