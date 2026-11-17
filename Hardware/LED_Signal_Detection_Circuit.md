@@ -220,15 +220,24 @@ The jack provides two electrical connections:
 
 The soldered connections were incorporated into the breadboard prototype to establish a reliable physical input interface.
 
+Soldered Female 1/4-inch Guitar Input Jack:
+
 <img width="736" height="550" alt="image" src="https://github.com/user-attachments/assets/677670e6-e8a8-4ba3-8799-16e8bfc7eec3" />
-
-
-![Soldered Female 1/4-inch Guitar Input Jack](<img width="736" height="550" alt="image" src="https://github.com/user-attachments/assets/bcb30383-50b0-4683-89b7-c1a5ed8e463f" />
-)
 
 This physical assembly connected the theoretical circuit design to a practical guitar input system and allowed the circuit to be tested using an actual electric guitar.
 
-## 6. What This Prototype Established
+## Schematic in Action
+
+<img width="832" height="442" alt="image" src="https://github.com/user-attachments/assets/db72cc5d-2567-4041-b470-4455566e2ffa" />
+
+https://github.com/user-attachments/assets/eac845b3-f99a-4f36-88c4-79b5b6f80fae
+
+
+
+
+
+
+## What This Prototype Established
 
 This circuit provided a practical understanding of several important analogue electronics concepts:
 
