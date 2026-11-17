@@ -1,10 +1,51 @@
-# ENSC-351-Final-Project
-Guitar Audio Converter 
+ # Real-Time Guitar Audio Processing System
 
-Hey, so since we're running low on time, have midterms coming up, and electronic components are currently not available in shops, alongside the fact that milestone 1 is due this Friday.
+## Project Team
 
-I'm thinking, why don't we develop the signal processing program first? We take an audio input, us speaking into our computer's microphone, and it determines our pitch (ie. Do, Re, Mi, Fa, So, La, Ti, Do)
+| Jamal Antabeel | Partner 1 | Partner 2 | Partner 3 |
+|:---:|:---:|:---:|:---:|
 
-I can even test-run it by listening to my guitar playing a chord and see if it works, perhaps. I can try running OpenCV too, so it can determine whether we want to look into a guitar or a person singing at the microphone.
+---
 
-It should take us a step forward toward the milestone while still being at a steady pace for our midterms and other classes; plus, aside from the circuit and BeagleBoard being included, this would get one thing down on our checklist for this project. 
+## Overview
+
+We are developing a guitar key detection system that identifies musical notes and chords played on an electric guitar.
+
+The system uses an analog front-end circuit to condition the guitar signal before converting it into digital samples using an **MCP3208 12-bit ADC**. A **BeagleY-AI** then processes the sampled signal using C/C++ to analyze its frequency content and identify musical chords.
+
+The goal is to develop a system capable of recognizing multiple guitar chords in real time, combining analog electronics, digital signal processing, and embedded software.
+
+## System Architecture
+
+The project is divided into three main stages:
+
+### 1. Analog Signal Conditioning
+
+- AC coupling and DC biasing.
+- Signal amplification using an MCP6002 operational amplifier.
+- Low-pass filtering to reduce unwanted high-frequency components before sampling.
+
+### 2. Analog-to-Digital Conversion
+
+- MCP3208 12-bit ADC.
+- SPI communication between the ADC and BeagleY-AI.
+- Guitar signal sampled through ADC channel 0.
+
+### 3. Digital Signal Processing
+
+- C/C++ software running on the BeagleY-AI.
+- Analysis of sampled guitar signals.
+- Identification of musical notes and chords.
+
+## Current Progress
+
+The current prototype successfully captures guitar input and identifies several chords, including:
+
+- A minor (Am)
+- B minor (Bm)
+- C major (C)
+- G major (G)
+- D major (D)
+- E major (E)
+
+Further development will focus on improving chord recognition, refining signal processing, and expanding the range of detectable chords.
