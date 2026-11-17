@@ -76,5 +76,3 @@ Therefore, buffering and ADC input compatibility are separate design considerati
 The OP777 circuit demonstrates the use of operational amplifiers for signal buffering and conditioning.
 
 Its implementation provides a useful reference for understanding how analogue circuit stages can be connected while minimizing loading effects.
-
-The circuit is documented separately because it represents an independently developed implementation within the overall project.
