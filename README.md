@@ -58,7 +58,16 @@ So we're planning on potentially looking into PCB design, a 3D model to encase t
 
 What to do with the knowledge of the keys played depends on the user; we were thinking an application we can first try and implement is having them act as key binds in video games. Stuff like A minor (Am) being jump, G major (G) being shoot a fireball, and C major (C) being whatever the user would like.
 
-## Progress Currently:
+## A Glimpse at Current Development:
+
+<img width="511" height="365" alt="image" src="https://github.com/user-attachments/assets/d5b3f32a-befe-4d6e-bc5b-2f0eec3e6176" />
+
+<img width="550" height="372" alt="image" src="https://github.com/user-attachments/assets/2a605aa8-99ce-466d-a485-0e2fb0ae4ad0" />
+
+[Guitar Key Detection System (Officially Working)](https://drive.google.com/file/d/1wev5ISjBDpGWXXvGDHWWp2vrMQXHoieD/view?usp=sharing)
+
+
+
 
 
 
