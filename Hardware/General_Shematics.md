@@ -22,7 +22,7 @@ The documentation describes the amplifier's role, the surrounding components, an
 
 ### 2. LED Signal Detection Circuit
 
-**Documentation:** `LED_Signal_Detection.md`
+**Documentation:** `LED_Signal_Detection_Circuit.md`
 
 This was an earlier working prototype developed to understand and demonstrate guitar signal detection.
 
