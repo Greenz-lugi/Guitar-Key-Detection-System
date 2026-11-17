@@ -2,7 +2,7 @@
 
 ## Overview
 
-This circuit was developed independently by a project team member as part of the guitar signal-conditioning system.
+This circuit was developed as part of the guitar signal conditioning system.
 
 It uses an OP777 operational amplifier to provide signal buffering and conditioning. The circuit is intended to prepare the incoming guitar signal for subsequent processing.
 
