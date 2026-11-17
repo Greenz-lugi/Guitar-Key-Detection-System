@@ -8,7 +8,7 @@ The objective was to create a circuit that responds to the presence of an incomi
 
 This prototype introduced several important concepts in analogue signal conditioning, including AC coupling, DC biasing, operational amplifier gain, and Schmitt trigger hysteresis.
 
-## 1. AC Coupling and DC Biasing
+## AC Coupling and DC Biasing
 
 An electric guitar produces an alternating voltage signal. However, the operational amplifier circuit operates from a single supply and requires an appropriate operating point.
 
@@ -42,7 +42,7 @@ $$
 
 This allows the guitar waveform to be processed using a single-supply circuit.
 
-## 2. Non-Inverting Amplification
+## Non-Inverting Amplification
 
 The next stage amplifies the incoming AC signal.
 
@@ -132,7 +132,7 @@ This arrangement allows the DC operating point to remain near its original value
 
 This was an important design realization: the amplifier must be designed around the signal's AC behaviour without unintentionally amplifying its DC bias.
 
-## 3. Schmitt Trigger
+## Schmitt Trigger
 
 After amplification, the signal is passed to a Schmitt trigger.
 
@@ -140,8 +140,8 @@ A Schmitt trigger is a comparator configuration that uses positive feedback to i
 
 Instead of switching at one fixed voltage, it has two switching thresholds:
 
-- Upper threshold: \(V_{UT}\)
-- Lower threshold: \(V_{LT}\)
+- Upper threshold: $V_{UT}$
+- Lower threshold: $V_{LT}$
 
 The output changes state when the input crosses one of these thresholds.
 
@@ -165,7 +165,7 @@ Without hysteresis, a comparator operating near its switching threshold may rapi
 
 Hysteresis creates a defined switching region, making the output more stable and less sensitive to small fluctuations.
 
-## 4. LED Output Behaviour
+## LED Output Behaviour
 
 The Schmitt trigger output controls the LED through a current-limiting resistor.
 
@@ -205,7 +205,7 @@ At these frequencies, the LED may appear to flicker, change brightness, or appea
 
 The LED is therefore acting as a basic visual indicator of signal activity rather than displaying the individual musical notes.
 
-## 5. Physical Assembly and Input Connection
+## Physical Assembly and Input Connection
 
 The circuit also required a physical connection between the electric guitar and the analogue input stage.
 
@@ -220,9 +220,11 @@ The jack provides two electrical connections:
 
 The soldered connections were incorporated into the breadboard prototype to establish a reliable physical input interface.
 
-<!-- Insert photograph of the soldered female 1/4-inch input jack here. -->
+<img width="736" height="550" alt="image" src="https://github.com/user-attachments/assets/677670e6-e8a8-4ba3-8799-16e8bfc7eec3" />
 
-![Soldered Female 1/4-inch Guitar Input Jack](images/female_guitar_input_jack.jpg)
+
+![Soldered Female 1/4-inch Guitar Input Jack](<img width="736" height="550" alt="image" src="https://github.com/user-attachments/assets/bcb30383-50b0-4683-89b7-c1a5ed8e463f" />
+)
 
 This physical assembly connected the theoretical circuit design to a practical guitar input system and allowed the circuit to be tested using an actual electric guitar.
 
