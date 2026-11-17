@@ -230,16 +230,24 @@ This physical assembly connected the theoretical circuit design to a practical g
 
 Below is the final schematic that was used to test the input jack:
 
+
 <img width="832" height="442" alt="image" src="https://github.com/user-attachments/assets/db72cc5d-2567-4041-b470-4455566e2ffa" />
 
 
+
+
 Below is a simulation done to see if the design was working and what happens, when we toggle it turns the light off and on, just like when the AC signal when it goes to our LED its frequency will cause the LED to flicker between ON and OFF and when there's no signal coming in from the input then the LED simply stays on.
+
+
 
 https://github.com/user-attachments/assets/eac845b3-f99a-4f36-88c4-79b5b6f80fae
 
 This link is a video of Jamal explaining his design and showing the circuit working [LED Circuit Explained and Demoed](https://drive.google.com/file/d/1zMmvF2nOIvjneBKTdkCiCS4dU60nxzHw/view?usp=sharing)
 
+
 This link isn't as lengthy and simply shows the circuit working, which means that our input's system is working:
+
+
 [LED Circuit in Action](https://drive.google.com/file/d/1x_K3ujMFTthLkoJavyx-Nhq9CsC3KC-M/view?usp=sharing)
 
 ## What This Prototype Established
