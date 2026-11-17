@@ -154,8 +154,8 @@ After amplification, the signal passes through a passive first-order RC low-pass
 
 The filter consists of:
 
-- Series resistor: \(R=220\,\Omega\)
-- Capacitor to ground: \(C=100\,\text{nF}\)
+- Series resistor: $R=220\,\Omega$
+- Capacitor to ground: $C=100\,\text{nF}$
 
 A low-pass filter allows lower-frequency components to pass while progressively attenuating higher-frequency components.
 
